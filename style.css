@@ -93,6 +93,14 @@ header .container {
     font-size: 1.8rem;
     font-weight: bold;
     color: var(--gold);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    height: 50px; /* Adjust height as needed */
+    width: auto;
 }
 
 nav ul {
@@ -500,6 +508,26 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 40px;
     padding-bottom: 60px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.footer-logo img {
+    height: 40px;
+    width: auto;
+}
+
+.footer-logo span {
+    color: var(--gold);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .footer-col h3 {
