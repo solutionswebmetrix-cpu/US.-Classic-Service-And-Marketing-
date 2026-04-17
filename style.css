@@ -160,7 +160,7 @@ nav ul li a.active {
 }
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Product/banner.png') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Product/banner.jpeg') no-repeat center center/cover;
     height: calc(100vh - 80px); /* Hero takes full viewport height minus header */
     width: 100%;
     display: flex;
